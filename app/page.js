@@ -1,6 +1,3 @@
-"use client";
-
-import Link from 'next/link';
 import Navbar from './navbar';
 
 
@@ -9,7 +6,6 @@ export default function Home() {
     
     <main>
       <body className="h-screen bg-gradient-to-b bg-gray-600"></body>
-
       <div>
         <Navbar />
       </div >
@@ -23,13 +19,13 @@ export default function Home() {
         <div className="flex justify-center m-10 bg-gray-700">
           <div>
             <p className="text-lg text-white m-5">
-              Hello my name is Darrel Nguyen, im currently at a student Southern Alberta Institute of Technology for software development,
-              pursing a diploma. I have a passion for technology growing up around videos games and brother who would always build computers.
+              Hello, my name is Darrel Nguyen, I'm a student at Southern Alberta Institute of Technology for software development,
+              pursuing a diploma. I had a passion for technology growing up around video games and a brother who would always build computers.
               My first introduction to programming was in high school where I took a computer science course and learned the basics of Java.
               I have always been interested in learning new things and challenging myself. I am always looking for new opportunities to learn and grow.
             </p>
             <p className="text-lg text-white m-5">
-              During my time at SAIT I have learned many new things such as web development, mobile development, and database management.
+              While at SAIT, I have learned many new things such as web development, mobile development, and database management.
               In languages like Python, Java, C#, SQL, and JavaScript. I have also learned how to work in a team and how to communicate with others.
               I have also had the opportunity to work on several projects that have allowed me to apply my theoretical knowledge to practical scenarios, 
               further honing my skills in problem-solving, critical thinking, and collaboration.
