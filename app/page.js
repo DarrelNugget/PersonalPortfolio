@@ -16,7 +16,7 @@ export default function Home() {
         <div className="flex justify-center items-center m-10 bg-gray-700">
           <div>
             <h1 className="text-3xl font-bold text-center text-white m-4">
-              Darrel Nguyen
+              Home
             </h1>
           </div>
         </div>
@@ -39,7 +39,9 @@ export default function Home() {
               efficient system designs, or by fostering a collaborative and inclusive tech community. 
               I am excited about the future and the endless possibilities that lie ahead in the world of technology.
             </p>
-            
+            <p className="text-lg text-white m-5">
+              Feel free to check out the other pages and learn more about me and my experiences.
+            </p>
           </div>
         </div>
     </main>
